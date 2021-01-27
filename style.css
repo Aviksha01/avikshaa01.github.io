@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+h1,h2,h3 {
+    font-weight: 300;
+}
+.bg-success {
+    background-color: teal!important;
+}
+
+@media (min-width: 768px) {
+    .top-bar.bg-success{
+        background-color: transparent!important;
+    }
+    .header {
+        position: relative;
+    }
+    .header .top-bar {
+        position: absolute;
+        z-index: 100;
+    }
+}
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: 300;
+}
+.navbar-brand span {
+    font-weight: 900;
+}
+.navbar-nav .nav-link {
+    text-transform: uppercase;
+    color: #ffffff!important;
+    font-size: .8rem;
+}
+/** Dropdown **/ 
+.dropdown-menu {
+    background-color: #71b100;
+}
+.dropdown-menu .dropdown-item {
+ color: #ffffff;
+ text-transform: uppercase;
+}
+.dropdown-menu .dropdown-item:hover {
+    background-color: #e08709;
+}
+/** Info Block inside slider **/
+.carousel-caption h3 {
+    font-size: 2.4rem;
+}
+.info-block h4 {
+    font-size: 1.2rem;
+}
+.info-block .price {
+    font-size: 1.4rem;
+}
+.btn-warning {
+    background-color: teal;
+    border-color: teal;
+    color:white;
+    font-weight: 700;
+}
+/* About Us **/
+.about-us h3 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+/** Properties **/
+.properties .card {
+    margin-bottom: 2rem;
+}
+.properties .card-price {
+    font-size: 1.1rem;
+    color: teal;
+}
+.properties .card-description img{
+    margin-right: .5rem;
+}
+/*** Find your house**/
+.find-your-house {
+    background-image: url(giphy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.find-your-house .row {
+    height: 30rem;
+}
+.find-your-house h3 {
+    font-size: 2.2rem;
+    font-weight: 900;
+}
+/** Blog **/
+.entry h3::after {
+    content: '';
+    display: block;
+    width: 8rem;
+    height: .2rem;
+    background-color: teal;
+    margin-top: .5rem;
+}
+.entry .meta span {
+    color: orangered;
+}
+.btn-success {
+    background-color: teal;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.btn-success:hover {
+    background-color: rgb(223, 25, 25);
+}
+/* Testimonials **/
+.testimonials {
+    background-color: teal;
+    
+}
+
+.testimonials .carousel-item {
+    
+    
+}
+.testimonials .testimonial-text{
+    position: relative;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 300;
+}
+.testimonials .testimonial-text::before {
+    content: open-quote;
+    font-size: 3rem;
+    position: absolute;
+    left: -2rem;
+    top: 1rem;
+    font-weight: 600;
+}
+.testimonials span {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+/** Footer */
+.footer.bg-dark {
+    background-color: rgb(68, 68, 68)!important;
+}
+.footer .nav-link {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
